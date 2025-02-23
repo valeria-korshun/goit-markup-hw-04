@@ -344,6 +344,7 @@ address {
 
 .portfolio-img {
   position: relative;
+  overflow: hidden;
 }
 .overlay {
   position: absolute;
@@ -359,7 +360,6 @@ address {
   letter-spacing: 0.32px;
   color: #f4f4fd;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  overflow: hidden;
 }
 .portfolio-list-item:hover,
 .portfolio-list-item:focus {
