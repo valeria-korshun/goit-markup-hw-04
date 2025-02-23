@@ -360,16 +360,18 @@ address {
   letter-spacing: 0.32px;
   color: #f4f4fd;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translateY(100%);
 }
 .portfolio-list-item:hover,
 .portfolio-list-item:focus {
   box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+  transform: translateY(0%);
 }
 
 .portfolio-list-item:hover .overlay,
 .portfolio-list-item:focus .overlay {
-  transform: translateY(100%);
+  transform: translateY(0);
 }
 
 .project-description {
@@ -436,10 +438,9 @@ address {
 }
 .footer-title {
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 00.02em;
   color: #ffffff;
   margin-bottom: 16px;
 }
